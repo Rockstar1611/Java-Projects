@@ -37,7 +37,6 @@ public class OnlineBankingSystem extends JFrame {
         setVisible(true);
     }
 
-    // 🔐 Login Panel with background and centered box
     private JPanel createLoginPanel() {
         JPanel panel = new BackgroundPanel("background.jpg");
         panel.setLayout(null);
@@ -92,7 +91,6 @@ public class OnlineBankingSystem extends JFrame {
         return panel;
     }
 
-    // 🏦 Dashboard Panel
     private JPanel createDashboardPanel() {
         JPanel panel = new BackgroundPanel("background.jpg");
         panel.setLayout(null);
@@ -200,7 +198,6 @@ public class OnlineBankingSystem extends JFrame {
     }
 }
 
-// 🌄 Background Panel Class
 class BackgroundPanel extends JPanel {
     private Image backgroundImage;
 
